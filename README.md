@@ -6,6 +6,7 @@ This project analysis patterns for software development using the TDD paradigm.
 
 This project uses [Poetry](https://python-poetry.org/) for dependency management. 
 
+### Install With Poetry
 To install dependencies, run: 
 
 ```bash
@@ -16,6 +17,16 @@ To spawn virtual environment, run:
 
 ```bash
 poetry shell
+```
+
+### Install Without Poetry
+
+```bash
+python -m venv ./venv  # create virtual environment
+source ./venv/bin/activate  # activate virtual environment
+pip install -r requirements.txt  # install dependencies
+# do whatever you want 
+deactivate  # deactivate virtual environment when you exit
 ```
 
 ## Development 
