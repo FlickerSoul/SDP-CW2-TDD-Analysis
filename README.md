@@ -2,6 +2,37 @@
 
 This project analysis patterns for software development using the TDD paradigm. 
 
+## Usage 
+
+This project uses [Poetry](https://python-poetry.org/) for dependency management. 
+
+To install dependencies, run: 
+
+```bash
+poetry install 
+```
+
+To spawn virtual environment, run:
+
+```bash
+poetry shell
+```
+
+## Development 
+
+The project uses [pre-commit](https://pre-commit.com/) to run checks before commits. 
+Please install the hooks before start developing
+
+```bash
+# after installing poetry and the dependencies 
+poetry run pre-commit install --hook-type pre-commit
+```
+
+This project uses [ruff](https://docs.astral.sh/ruff/) for style formatting. Please install corresponding 
+plugins to your IDE to enable automatic formatting. 
+The instructions can be found [here](https://docs.astral.sh/ruff/integrations/#integrations)
+
+
 ## Project Structure 
 
 ### Repo Data Collection 

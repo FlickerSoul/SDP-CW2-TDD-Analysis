@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "sdp-cw2-tdd-analysis"
+version = "0.1.0"
+description = ""
+authors = [
+  "Larry Zeng <hi@universe.observer>", 
+  "Tanmay Thaware <ucabta6@ucl.ac.uk>",
+  "Chengqi Ke <ucabck2@ucl.ac.uk>",
+  "Keyur Narotomo <zcabkmn@ucl.ac.uk>",
+  "Gabriel Turner <zcabggt@ucl.ac.uk>",
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydriller = "^2.6"
+jupyterlab = "^4.0.9"
+notebook = "^7.0.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.6"
+pre-commit = "^3.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+target-version = "py312"
+extend-include = ["*.ipynb"]
+
+[tool.ruff.format]
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+# Like Black, use double quotes for strings.
+quote-style = "double"
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+
+[tool.ruff.lint]
+ignore = []
+select = ["ASYNC", "I", "ICN"]
