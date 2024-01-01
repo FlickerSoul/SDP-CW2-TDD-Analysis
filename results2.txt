@@ -1,0 +1,43 @@
+Repo Name: ./seatunnel/
+Number Of Commits: 3692
+Number Of Merge Commits: 299
+Number Of Java Files: 2965
+Number Of Test Files: 260
+Number Of Source Files: 2705
+Number Of Times Test File Created Before Source File (TDD): 10
+Number Of Times Test File Created In The Same Commit As The Source File: 65
+Number Of Times Test File Created After Source File (Non-TDD): 66
+Number Of Times Matching Source File For A Test File Was Not Found (Error): 119
+---------------------------------------------------------------------------------
+Repo Name: ./ozone/
+Number Of Commits: 6900
+Number Of Merge Commits: 146
+Number Of Java Files: 3846
+Number Of Test Files: 1186
+Number Of Source Files: 2660
+Number Of Times Test File Created Before Source File (TDD): 36
+Number Of Times Test File Created In The Same Commit As The Source File: 420
+Number Of Times Test File Created After Source File (Non-TDD): 198
+Number Of Times Matching Source File For A Test File Was Not Found (Error): 532
+---------------------------------------------------------------------------------
+Repo Name: ./shenyu/
+Number Of Commits: 3250
+Number Of Merge Commits: 79
+Number Of Java Files: 3342
+Number Of Test Files: 1057
+Number Of Source Files: 2285
+Number Of Times Test File Created Before Source File (TDD): 35
+Number Of Times Test File Created In The Same Commit As The Source File: 436
+Number Of Times Test File Created After Source File (Non-TDD): 385
+Number Of Times Matching Source File For A Test File Was Not Found (Error): 201
+---------------------------------------------------------------------------------
+Repo Name: ./dubbo/
+Number Of Commits: 7330
+Number Of Merge Commits: 385
+Number Of Java Files: 4513
+Number Of Test Files: 1070
+Number Of Source Files: 3443
+Number Of Times Test File Created Before Source File (TDD): 45
+Number Of Times Test File Created In The Same Commit As The Source File: 432
+Number Of Times Test File Created After Source File (Non-TDD): 341
+Number Of Times Matching Source File For A Test File Was Not Found (Error): 252
