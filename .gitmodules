@@ -4,3 +4,12 @@
 [submodule "test_submodules/dubboj"]
 	path = test_submodules/dubboj
 	url = https://github.com/apache/dubbo
+[submodule "test_submodules/seatunnel"]
+	path = test_submodules/seatunnel
+	url = https://github.com/apache/seatunnel.git
+[submodule "test_submodules/ozone"]
+	path = test_submodules/ozone
+	url = https://github.com/apache/ozone.git
+[submodule "test_submodules/shenyu"]
+	path = test_submodules/shenyu
+	url = https://github.com/apache/shenyu.git
