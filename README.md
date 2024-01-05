@@ -50,9 +50,7 @@ The instructions can be found [here](https://docs.astral.sh/ruff/integrations/#i
 
 The repo data should be cloned locally with [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
-The git repositories located under `test_submodules` are used for testing and are not real data source for generating the final results. 
-
-The git repositories located under `production_submodules` are used in statistical analysis and generating final results. 
+The git repositories located under `test_submodules` are used for analysis.
 
 ### Rationale For Using Submodules
 
