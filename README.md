@@ -1,6 +1,6 @@
 # SDP-CW2-TDD-Analysis
 
-This project analysis patterns for software development using the TDD paradigm. 
+This project analysis patterns for software development using the TDD paradigm. The full repository can be found [here](https://github.com/FlickerSoul/SDP-CW2-TDD-Analysis).
 
 ## Usage 
 
