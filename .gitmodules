@@ -13,3 +13,6 @@
 [submodule "test_submodules/shenyu"]
 	path = test_submodules/shenyu
 	url = https://github.com/apache/shenyu.git
+[submodule "test_submodules/tomcat"]
+	path = test_submodules/tomcat
+	url = https://github.com/apache/tomcat.git
